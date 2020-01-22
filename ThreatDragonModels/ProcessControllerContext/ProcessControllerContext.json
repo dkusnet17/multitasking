@@ -55,7 +55,7 @@
                 "height": 80
               },
               "position": {
-                "x": 548,
+                "x": 594,
                 "y": 1
               },
               "angle": 0,
@@ -301,7 +301,41 @@
                 }
               ],
               "z": 13,
-              "attrs": {}
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 335,
+                "y": 1
+              },
+              "angle": 0,
+              "id": "4a6e1e8d-b2ba-48e2-b789-78e8168e1379",
+              "z": 14,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Low Pass Filter"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
