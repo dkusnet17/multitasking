@@ -169,8 +169,8 @@
                 "height": 80
               },
               "position": {
-                "x": 296,
-                "y": 334
+                "x": 300,
+                "y": 272
               },
               "angle": 0,
               "id": "605444c3-0d0f-4a01-bd71-09523b015c76",
@@ -218,8 +218,7 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "x": 294,
-                "y": 386
+                "id": "605444c3-0d0f-4a01-bd71-09523b015c76"
               },
               "target": {
                 "x": 204,
@@ -249,6 +248,60 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 417,
+                "y": 418
+              },
+              "angle": 0,
+              "id": "be7898d3-eb40-446c-b5ae-c56c751d2a8a",
+              "z": 12,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Maintenance server"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 202,
+                "y": 373
+              },
+              "target": {
+                "x": 414,
+                "y": 461
+              },
+              "vertices": [],
+              "id": "9c45ce00-c3f9-4001-9f55-2b185544ffc8",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 9",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 13,
+              "attrs": {}
             }
           ]
         },
