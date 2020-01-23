@@ -1,0 +1,7 @@
+-The local interface controls the operation of the PID. CPU + I/O
+-The PID controls Process heater. Period 200 ms, 20 ms capacity, 10 % CPU
+-The Process heater sends data through to the Low passfilter. Period 20 ms, 5 ms capacity, 25%  CPU
+-The Low pass filter filters the data and sends the data to the PID. Period 1000 ms, 200 ms capacity, 20% CPU
+-The Diagnostics module checks the data coming from the pid every 30 seconds. I/O
+-The Diagnostics module sends an alarm if something is not right by contacting the Maintenance server. I/O 
+-The diagnostics module indicates that there is an error by lighting an error LED. Period 333 ms, 25 ms capacity, 8% CPU + I/O
