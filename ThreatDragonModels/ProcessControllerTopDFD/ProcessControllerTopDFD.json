@@ -616,7 +616,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 21",
+                      "text": "manages",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -652,7 +652,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 22",
+                      "text": "contacting",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -731,7 +731,50 @@
                 }
               ],
               "z": 25,
-              "attrs": {}
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 941,
+                "y": 531
+              },
+              "target": {
+                "id": "3ef482f2-e2c9-4c22-ba30-3a8e298b7a6f"
+              },
+              "vertices": [],
+              "id": "48f972e5-c5ba-407a-b7cd-d9d37a3414f1",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 24",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 26,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
