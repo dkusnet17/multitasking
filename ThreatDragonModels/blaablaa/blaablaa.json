@@ -1,0 +1,16 @@
+{
+  "summary": {
+    "title": "blaablaa",
+    "owner": "Daniel"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "Blaa",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
+  }
+}
